@@ -1,5 +1,0 @@
-pandas
-openai
-sqlalchemy
-pyodbc
-python-dotenv

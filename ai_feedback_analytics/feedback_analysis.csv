@@ -1,4 +1,0 @@
-id,date,area,comment,rating,category,sentiment,main_theme,sentiment_score,summary
-1,2025-01-10,Support,The service was slow and the system kept crashing.,2,Support,Negative,Service delay,-0.8,The feedback is classified as Negative related to Service delay.
-2,2025-01-12,Infrastructure,The building is clean and well organized.,5,Infrastructure,Positive,Facility quality,0.9,The feedback is classified as Positive related to Facility quality.
-3,2025-01-15,Support,I had to wait 3 hours to be attended.,1,Support,Negative,Service delay,-0.8,The feedback is classified as Negative related to Service delay.
