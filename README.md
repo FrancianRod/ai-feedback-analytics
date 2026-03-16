@@ -108,3 +108,35 @@ Chatbot interno para consulta de feedback
 Versionamento GitHub
 Documentação técnica
 Arquitetura desenhada (diagrama)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🇧🇷 Versão em Português
+📊 Dashboard de Análise de Sentimento com IA
+Este projeto automatiza a coleta de feedbacks de clientes (via Kaggle), processa o sentimento e a categoria das mensagens utilizando Inteligência Artificial e visualiza os dados em um dashboard interativo no Power BI.
+
+Principais Recursos:
+- ETL Automatizado: Pipeline em Python que extrai dados do Kaggle e armazena em SQLite.
+- Classificação com IA: Uso de modelos de linguagem para categorizar feedbacks em áreas como Suporte, Infraestrutura e Sistemas.
+- Análise de Polaridade: Cálculo de score de sentimento variando de -1 (crítico) a 1 (excelente).
+- Visualização Estratégica: Dashboard focado em volume de interações versus nível de satisfação por departamento.
+
+Tecnologias Utilizadas:
+- Linguagem: Python (Pandas, SQLite3).
+- IA/ML: Integração com LLM para análise de texto.
+- BI: Power BI (DAX, Medidas Dinâmicas, Formatação Condicional).
+
+🇺🇸 English Version
+📊 AI-Powered Feedback Analytics Dashboard
+This project automates customer feedback collection (via Kaggle), processes message sentiment and categorization using Artificial Intelligence, and visualizes the insights in an interactive Power BI dashboard.
+
+Key Features:
+- Automated ETL: Python pipeline that extracts data from Kaggle and stores it in SQLite.
+- AI Classification: Use of LLMs to categorize feedback into areas such as Support, Infrastructure, and Systems.
+- Polarity Analysis: Sentiment score calculation ranging from -1 (critical) to 1 (excellent).
+- Strategic Visualization: Dashboard focused on interaction volume versus satisfaction levels by department.
+
+Tech Stack:
+- Language: Python (Pandas, SQLite3).
+- AI/ML: LLM integration for text analysis.
+- BI: Power BI (DAX, Dynamic Measures, Conditional Formatting).
