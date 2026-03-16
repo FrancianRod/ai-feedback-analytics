@@ -10,8 +10,8 @@ def run_pipeline():
     raw_df = load_data() 
     df = preprocess_data(raw_df)
     
-    # 2. Amostra de segurança (20 linhas)
-    df_sample = df.head(20)
+    # 2. Amostra de segurança (100 linhas)
+    df_sample = df.head(100)
     
     results = []
     print(f"Analisando {len(df_sample)} registros...")
